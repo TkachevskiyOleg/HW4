@@ -1,0 +1,94 @@
+footer {
+  background-color: #1e2f5f;
+  padding: 370px;
+}
+
+.col-md-6 {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+
+ul.list-unstyled {
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  list-style-type: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+a {
+  color: #fdf7f7;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: inline-block;}
+
+  f {
+    color: #fdf7f7;}
+    
+    f.my-block{
+      width:50px;
+    }
+    a:hover {
+      border-bottom: 1px solid white; 
+    }
+    
+    
+    
+
+    .social-media {
+      position: absolute;
+      top: 50%;
+      right: 20%;
+      transform: translateY(-40%);
+      display: flex;
+      align-items: center; /* Центруємо по вертикалі */
+  }
+  
+  /* Стилі для іконок */
+  .facebook, .insta, .youtube {
+      margin-left: 10px; /* Змінюємо відступ між іконками */
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: background-image 0.3s ease-in-out;
+  }
+  
+ 
+  .facebook {
+      background-image: url('fb_gray.png');
+  }
+  
+  .insta {
+      background-image: url('insta_gray.png');
+  }
+  
+  .youtube {
+      background-image: url('youtube_gray.png');
+  }
+  
+
+  .facebook:hover {
+      background-image: url('fb.png');
+  }
+  
+  .insta:hover {
+      background-image: url('insta.png');
+  }
+  
+  .youtube:hover {
+      background-image: url('youtube.png');
+  }
+  
